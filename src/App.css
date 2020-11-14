@@ -1,1 +1,44 @@
 /* Style */
+* {
+	margin: 0;
+}
+
+body {
+	background-color: #f5f6fa;
+}
+
+.app {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 20px;
+}
+
+/* Header */
+.app__header {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+	justify-content: space-between;
+}
+
+.app__left {
+	flex: 0.7;
+	margin-right: 50px;
+	margin-bottom: 50px;
+}
+
+.app__right {
+	flex: 0.3;
+}
+
+.app__stats {
+	display: flex;
+	justify-content: space-between;
+}
+
+/* MediaQuery */
+@media screen and (max-width: 768px) {
+	.app {
+		flex-direction: column;
+	}
+}

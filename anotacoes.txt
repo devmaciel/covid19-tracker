@@ -2,10 +2,13 @@
   npm start
 
 # Dependencies
+  npm i @material-ui/core
 
 # Firebase
   ...
 
 # URL's
-  https://www.diagrams.net
-  https://corona.lmao.ninja/docs/
+  *wireframe
+    https://www.diagrams.net 
+  *api covid19
+    https://corona.lmao.ninja/docs/
