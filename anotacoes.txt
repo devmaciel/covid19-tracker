@@ -1,0 +1,11 @@
+# Get Start
+  npm start
+
+# Dependencies
+
+# Firebase
+  ...
+
+# URL's
+  https://www.diagrams.net
+  https://corona.lmao.ninja/docs/
