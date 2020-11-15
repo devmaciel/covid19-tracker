@@ -3,12 +3,19 @@
 
 # Dependencies
   npm i @material-ui/core
+  npm i react-chartjs-2 chart.js
+  npm i numeral
 
 # Firebase
   ...
 
 # URL's
-  *wireframe
+  *WIREFRAME
     https://www.diagrams.net 
-  *api covid19
+
+  *COVID19 API
     https://corona.lmao.ninja/docs/
+
+  *CHARTJS
+    https://www.npmjs.com/package/react-chartjs-2
+      https://www.chartjs.org
