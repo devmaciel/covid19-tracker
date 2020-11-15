@@ -5,16 +5,19 @@ import {
 	MenuItem,
 	Select,
 } from "@material-ui/core";
+import { sortData } from "./util";
 import { useEffect, useState } from "react";
 import "./App.css";
 import "./Components/InfoBox/InfoBox";
 import InfoBox from "./Components/InfoBox/InfoBox";
 import Map from "./Components/Map/Map";
+import Table from "./Components/Table/Table";
 
 function App() {
 	const [countries, setCountries] = useState([]);
 	const [country, setCountry] = useState("worldwide");
 	const [countryInfo, setCountryInfo] = useState({});
+	const [tableData, setTableData] = useState([]);
 
 	// Get all countries
 	useEffect(() => {
@@ -36,6 +39,8 @@ function App() {
 						value: country.countryInfo.iso2,
 					}));
 
+					const sortedData = sortData(data);
+					setTableData(sortedData);
 					setCountries(countries);
 				});
 		};
@@ -106,6 +111,7 @@ function App() {
 			<Card className="app__right">
 				<CardContent>
 					<h3>Live Cases by Country</h3>
+					<Table countries={tableData} />
 					<h3>Worldwide new cases</h3>
 				</CardContent>
 			</Card>
