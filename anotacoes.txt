@@ -5,6 +5,8 @@
   npm i @material-ui/core
   npm i react-chartjs-2 chart.js
   npm i numeral
+  npm i leaflet
+  npm i react-leaflet
 
 # Firebase
   ...
@@ -19,3 +21,9 @@
   *CHARTJS
     https://www.npmjs.com/package/react-chartjs-2
       https://www.chartjs.org
+  
+  *LEAFLET
+    https://leafletjs.com
+
+...todo
+fix the worldwide lat
