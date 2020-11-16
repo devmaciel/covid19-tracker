@@ -9,7 +9,12 @@
   npm i react-leaflet
 
 # Firebase
-  ...
+  "npm i -g firebase-tools"
+  firebase login
+  firebase init hosting
+  npm run build
+  firebase deploy
+
 
 # URL's
   *WIREFRAME
@@ -24,6 +29,3 @@
   
   *LEAFLET
     https://leafletjs.com
-
-...todo
-fix the worldwide lat
