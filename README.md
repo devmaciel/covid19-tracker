@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Covid-19 Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Começando
 
-## Available Scripts
+Simplesmente podemos iniciar com
 
-In the project directory, you can run:
+> npm start
 
-### `npm start`
+Ou você pode entrar pelo link do webapp com firebase, caso esteja down, pode dar um aviso por gentileza :) https://covid19-tracker-d4199.web.app
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Algumas imagens do projeto
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Página Inicial
+[![](https://imgur.com/wd6J0lE.png)](https://imgur.com/wd6J0lE.png)
 
-### `npm test`
+<br />
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Página Inicial com casos diários recuperados
+[![](https://imgur.com/039n4ou.png)](https://imgur.com/039n4ou.png)
 
-### `npm run build`
+<br />
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Wireframe do App
+[![](https://imgur.com/slgaSsZ.png)](https://imgur.com/slgaSsZ.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<br /><br />
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Tecnologias Utilizadas
 
-### `npm run eject`
+- HTML5
+- CSS3
+- Javascript
+- Firebase
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+#### Ferramentas Utilizadas
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- React JS <br />
+  -- react-numeral <br />
+  -- react-chartjs2 <br />
+  -- leaflet <br />
+  -- react leaflet <br />
+  -- react hooks <br />
+- Diagrams.net <br />
+- Covid19 API
+- ChartJS API
+- Leaflet
+- Firebase Tools <br />
+- VSCode <br />
+- GIT
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<br />
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+##### Mais sobre o projeto
 
-## Learn More
+Projeto focado em apresentar os dados diários mundialmente sobre novos (casos) da covid, tão quanto como (recuperados) e (mortos) diariamente. Dados totais de (casos, mortes, recuperados). Infelizmente estamos em um momento difícil devido a esta pandemia e este é um projeto baseado nessa realidade.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+###### _Relato de bugs_
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+_Algo de certo está errado.. nenhum bug apareceu ainda :(_
